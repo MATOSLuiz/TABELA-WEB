@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Kanit&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
+
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+/* Header */
+header,
+.navbar {
+  color: #fe5000e2;
+  background-color: #242424;
+  font-family: "Kanit", sans-serif;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 75px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #fe5000e2;
+}
+
+.navbar-brand:hover {
+  color: #fe5000e2;
+}
+
+#navbar-links a {
+  color: #fe5000e2;
+}
+
+#navbar-links .sair {
+  color: #fff;
+}
+
+#navbar-links a:hover {
+  color: #fe5d00a5;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem 0.8rem;
+}
+
+table tbody td {
+  cursor: move;
+}
+
+table tr {
+  border-bottom: 2px solid #fe5000bc;
+}
+
+table thead {
+  font-weight: bold;
+  color: #242424 !important;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+.container .form-check {
+  display: inline-block;
+  margin-right: 4em;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
+input[type="number"] {
+  -moz-appearance: textfield !important;
+  appearance: textfield !important;
+}
